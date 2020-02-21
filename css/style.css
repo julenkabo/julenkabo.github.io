@@ -1,0 +1,86 @@
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+@media(min-width:1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+/* knopka */
+
+.button {
+    padding: 14px 21px;
+    box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.75);
+    color: white;
+    border-radius: 4px;
+    background-color: #425a5a;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.button-green {
+    background-color: #58d093;
+    box-shadow: inset 0px -3px 0px 0px #3c9066;
+}
+
+/* shapka */
+
+.header {
+    height: 567px;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-wrap {
+    position: relative;
+
+}
+
+.header .logo {
+    position: absolute;
+    top: 0;
+}
+
+.header-title {
+    margin: 0;
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.header-desc {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.header-button-margin {
+    margin-top: 35px;
+}
+
+.picture-wrap {
+    position: absolute;
+    right: 48px;
+    bottom: -190px;
+}
+
+.text-wrap {
+    width: 570px;
+    padding-top: 240px;
+    padding-left: 100px;
+}
